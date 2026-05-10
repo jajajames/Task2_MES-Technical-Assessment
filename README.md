@@ -1,4 +1,4 @@
-# Task 2: Domain Modeling Summary
+# Task 2: Domain Modeling Summary 0510
 
 這部分實作了 MES 系統的核心領域模型，包含：
 - **Lot**: 追蹤產品編號、類型、數量與狀態。
