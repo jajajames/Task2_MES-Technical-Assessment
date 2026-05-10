@@ -33,3 +33,4 @@
 /home/james/MES_Project/Task3.MES.API/obj/Debug/net10.0/Task3.MES.API.pdb
 /home/james/MES_Project/Task3.MES.API/obj/Debug/net10.0/Task3.MES.API.genruntimeconfig.cache
 /home/james/MES_Project/Task3.MES.API/obj/Debug/net10.0/ref/Task3.MES.API.dll
+/home/james/MES_Project/Task3.MES.API/obj/Debug/net10.0/Task3.MES.API.sourcelink.json
