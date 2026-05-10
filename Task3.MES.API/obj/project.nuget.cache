@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+2PW0c01tgs=",
+  "success": true,
+  "projectFilePath": "/home/james/MES_Project/Task3.MES.API/Task3.MES.API.csproj",
+  "expectedPackageFiles": [
+    "/home/james/.nuget/packages/microsoft.aspnetcore.openapi/10.0.7/microsoft.aspnetcore.openapi.10.0.7.nupkg.sha512",
+    "/home/james/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
