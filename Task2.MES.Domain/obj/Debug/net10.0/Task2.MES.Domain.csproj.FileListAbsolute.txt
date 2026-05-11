@@ -10,3 +10,6 @@
 /home/james/MES_Project/Task2.MES.Domain/obj/Debug/net10.0/Task2.MES.Domain.pdb
 /home/james/MES_Project/Task2.MES.Domain/obj/Debug/net10.0/ref/Task2.MES.Domain.dll
 /home/james/MES_Project/Task2.MES.Domain/obj/Debug/net10.0/Task2.MES.Domain.sourcelink.json
+/home/james/MES_Project/Task2.MES.Domain/bin/Debug/net10.0/Task2.MES.Domain
+/home/james/MES_Project/Task2.MES.Domain/bin/Debug/net10.0/Task2.MES.Domain.runtimeconfig.json
+/home/james/MES_Project/Task2.MES.Domain/obj/Debug/net10.0/Task2.MES.Domain.genruntimeconfig.cache
