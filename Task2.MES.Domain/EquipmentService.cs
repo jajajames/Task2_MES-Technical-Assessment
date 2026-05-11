@@ -1,17 +1,28 @@
-namespace Task2.MES.Domain;
+using System;
 
-// 這裡就是「實作」你的合約
-public class EquipmentService : IEquipmentService
+namespace Task2.MES.Domain
 {
-    public void UpdateStatus(string id, EquipmentStatus newStatus)
+    public class EquipmentService : IEquipmentService
     {
-        // 模擬驗證邏輯
-        Console.WriteLine($"[驗證成功] 機台 {id} 狀態已更新為 {newStatus}");
-    }
+        // 1. 大腦記憶區：直接用兩個變數，一個記 ID，一個記狀態
+        private string _id = "";
+        private EquipmentStatus _status = EquipmentStatus.Idle;
 
-    public Equipment? GetEquipmentById(string id)
-    {
-        // 模擬回傳一個測試資料
-        return new Equipment { Id = id, Name = "測試機台" };
+        // 2. 存入功能：你給我資料，我就把它存進變數
+        public void UpdateStatus(string id, EquipmentStatus newStatus)
+        {
+            _id = id;
+            _status = newStatus;
+        }
+
+        // 3. 取出功能：只要 ID 對，我就把剛才記的東西給你
+        public Equipment GetEquipmentById(string id)
+        {
+            if (id == _id)
+            {
+                return new Equipment { Id = _id, Status = _status };
+            }
+            return null; // ID 不對就當作沒這回事
+        }
     }
 }

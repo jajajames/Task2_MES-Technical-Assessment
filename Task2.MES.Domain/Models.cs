@@ -33,7 +33,8 @@ public class Equipment
 
     /// <summary> 設備名稱 (例如: 黃光機 1 號) </summary>
     public string Name { get; set; } = string.Empty;
-
+    
+    public EquipmentStatus CurrentStatus { get; set; }
     /// <summary> 
     /// 設備當前運行狀態 (引用自 EquipmentStatus Enum)
     /// 預設值為 Idle (閒置中)
