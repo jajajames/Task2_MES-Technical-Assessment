@@ -1,4 +1,5 @@
+bin/
+obj/
 HelloWorldApp/
 Task3.MES.API/
-**/bin/
-**/obj/
+.DS_Store

@@ -1,4 +1,0 @@
-echo "bin/" >> .gitignore
-echo "obj/" >> .gitignoreTask3.MES.API/
-HelloWorldApp/
-Task3.MES.API/
