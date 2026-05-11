@@ -1,2 +1,2 @@
 echo "bin/" >> .gitignore
-echo "obj/" >> .gitignore
+echo "obj/" >> .gitignoreTask3.MES.API/
